@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>LOST - Homepage</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav__logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <i class="fas fa-bars" id="button"></i>
+                <script>
+                    $('#button').click(function() {
+                        $("#button").css("display", "none");
+                        $(".nav__menu").css("display", "flex");
+                    });
+                </script>
+                <ul class="nav__menu">
+                    <li>
+                        <a class="nav__link" href="#">Важно</a>
+                        <ul class="nav__submenu">
+                            <li><a href="#">Статья о том</a></li>
+                            <li><a href="#">Статья об этом</a></li>
+                            <li><a href="#">Статья об этом и о том</a></li>
+                            <li><a href="#">Статья о том и об этом</a></li>
+                            <li><a href="#">Статья о статье</a></li>
+                            <li><a href="#">Статья статейная</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="#">Развлечения</a>
+                        <ul class="nav__submenu">
+                            <li><a href="#">Статья о том</a></li>
+                            <li><a href="#">Статья об этом</a></li>
+                            <li><a href="#">Статья об этом и о том</a></li>
+                            <li><a href="#">Статья о том и об этом</a></li>
+                            <li><a href="#">Статья о статье</a></li>
+                            <li><a href="#">Статья статейная</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="#">Психология</a>
+                        <ul class="nav__submenu">
+                            <li><a href="#">Статья о том</a></li>
+                            <li><a href="#">Статья об этом</a></li>
+                            <li><a href="#">Статья об этом и о том</a></li>
+                            <li><a href="#">Статья о том и об этом</a></li>
+                            <li><a href="#">Статья о статье</a></li>
+                            <li><a href="#">Статья статейная</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="#">Один дома</a>
+                        <ul class="nav__submenu">
+                            <li><a href="#">Статья о том</a></li>
+                            <li><a href="#">Статья об этом</a></li>
+                            <li><a href="#">Статья об этом и о том</a></li>
+                            <li><a href="#">Статья о том и об этом</a></li>
+                            <li><a href="#">Статья о статье</a></li>
+                            <li><a href="#">Статья статейная</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="#">Финансы и работа</a>
+                        <ul class="nav__submenu">
+                            <li><a href="#">Статья о том</a></li>
+                            <li><a href="#">Статья об этом</a></li>
+                            <li><a href="#">Статья об этом и о том</a></li>
+                            <li><a href="#">Статья о том и об этом</a></li>
+                            <li><a href="#">Статья о статье</a></li>
+                            <li><a href="#">Статья статейная</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="#">Здоровье</a>
+                        <ul class="nav__submenu">
+                            <li><a href="#">Статья о том</a></li>
+                            <li><a href="#">Статья об этом</a></li>
+                            <li><a href="#">Статья об этом и о том</a></li>
+                            <li><a href="#">Статья о том и об этом</a></li>
+                            <li><a href="#">Статья о статье</a></li>
+                            <li><a href="#">Статья статейная</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="#">Закон</a>
+                        <ul class="nav__submenu">
+                            <li><a href="#">Статья о том</a></li>
+                            <li><a href="#">Статья об этом</a></li>
+                            <li><a href="#">Статья об этом и о том</a></li>
+                            <li><a href="#">Статья о том и об этом</a></li>
+                            <li><a href="#">Статья о статье</a></li>
+                            <li><a href="#">Статья статейная</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__main">
+                <h1 class="header__title">Привет!</h1>
+                <div class="header__text">
+                    <p>Стесняешься задать вопрос?</p>
+                    <p>Не знаешь у кого спросить?</p>
+                    <p>Не получается найти нужную информацию?</p>
+                </div>
+                <p class="header__help">Тогда мы тебе поможем!</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="advantages">
+            <div class="container">
+                <h2 class="advantages__title">Здесь ты:</h2>
+                <div class="advantages__list">
+                    <div class="advantages__row">
+                        <p>сможешь узнать свои права, пройти <a href="#">тест на профориентацию</a> и многое другое</p>
+                    </div>
+                    <div class="advantages__row">
+                        <p>не стесняясь <a href="#">задать даже самый странный вопрос</a></p>
+                    </div>
+                    <div class="advantages__row">
+                        <p><a href="#">найти вдохновение для нового хобби</a></p>
+                    </div>
+                </div>
+                <div class="advantages__go">
+                    <p>Вперёд!</p>
+                </div>
+            </div>
+        </section>
+        <section class="popular">
+            <div class="container">
+                <div class="popular__list">
+                    <h2 class="popular__title">Популярные статьи</h2>
+                    <div class="popular__item">
+                        <a href="#">
+                            <img src="img/main/popular_article1.png" alt="article photo">
+                            <div class="popular__article">
+                                <h3>Перелёты для несовершеннолетних</h3>
+                                <p>Можно совершать перелёты без взрослых? Как это сделать и какие докуметны требуются...
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="popular__item">
+                        <a href="#">
+                            <img src="img/main/popular_article2.png" alt="article photo">
+                            <div class="popular__article">
+                                <h3>Йога для начинающих</h3>
+                                <p>Сегодня мы сделали подборку топ упражнений для начинающих, которые можно выполнять...
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="popular__item">
+                        <a href="#">
+                            <img src="img/main/popular_article3.png" alt="article photo">
+                            <div class="popular__article">
+                                <h3>Я не такой как всё: что мне с этим делать?</h3>
+                                <p>Часто в современном миры мы сталкиваемся с проблемой непонимания со стороны...</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="popular__item">
+                        <a href="#">
+                            <img src="img/main/popular_article4.png" alt="article photo">
+                            <div class="popular__article">
+                                <h3>Что посмотреть в свободное время?</h3>
+                                <p>Если вы задавались вопросом, что посмотреть в долгий скучный вечер, то вот подборка...
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="popular__item">
+                        <a href="#">
+                            <img src="img/main/popular_article5.png" alt="article photo">
+                            <div class="popular__article">
+                                <h3>Профориентация: муки выбора профессии</h3>
+                                <p>Поступление в вуз или в университет — важный этап в жизни любого человека, поэтому множество...
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="popular__item">
+                        <a href="#">
+                            <img src="img/main/popular_article6.png" alt="article photo">
+                            <div class="popular__article">
+                                <h3>Онлайн-экскурсии по музеям</h3>
+                                <p>В период пандемии многие привычные вещи изменились, например походы в музеи. Но...
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="#">Telegram</a>
+                <a href="mailto:Email_123@gmail.com">Email_123@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
